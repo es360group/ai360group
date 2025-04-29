@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<odoo>
+    <record model="ir.ui.view" id="aigroup360_iframe_form">
+    <field name="name">AIgroup360 Iframe</field>
+    <field name="model">aigroup360.iframe</field>
+        <field name="arch" type="xml">
+            <form>
+                <iframe src="https://360group.es/aicrm/" width="100%" height="800px"/>
+            </form>
+        </field>
+    </record>
+
+    <record id="aigroup360_iframe_action" model="ir.actions.act_window">
+        <field name="name">ai360group_action</field>
+        <field name="res_model">aigroup360.iframe</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="aigroup360_iframe_form"/>
+    </record>
+    
+    <menuitem action="aigroup360_iframe_action"  web_icon="aigroup360,static/description/icon.png" id="menu_aigroup360_iframe" name="ai360group" sequence="1"/>
+</odoo>

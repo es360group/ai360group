@@ -1,0 +1,51 @@
+.descripcion {
+    margin-top: 50px;
+}
+.gratuito {
+    padding: 10px 0 10px 0;
+    background-color: lightgray;
+    border-radius: 7px;
+}
+.gratuito article {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 7px;
+}
+.premium {
+    margin: 10px 0 10px 0;
+    background-color: lightgray;
+    border-radius: 7px;
+}
+.premium .col-5 {
+    margin: 10px 0px 10px 0px;
+    height: 170px;
+    background-color: white;
+    border-radius: 7px;
+}
+div.premium .col-11 {
+    margin: 10px 10px;
+    height: 110px;
+    background-color: white;
+    border-radius: 7px;
+}
+h4 {
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+}
+h4.gratuito {
+    background-color: orange;
+}
+h4.marketing {
+    background-color: cadetblue;
+}
+h4.premiumHeader {
+    background-color: fuchsia;
+}
+h4.codigo {
+    background-color: aqua;
+}
+h4.platinum {
+    background-color: gray;
+}

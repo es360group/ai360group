@@ -1,0 +1,3 @@
+.o_control_panel:has(+ * iframe){
+    display: none;
+}

@@ -6,11 +6,10 @@
     'category': 'Extra Tools',
     'version': '16.0.1',
     'author': '360 Group',
-    'website': 'https://360group.es/',
-    'summary': """Herramientas IA 360 group""",
+    'website': 'https://360group.ai/',
+    'summary': """ AI Tools 360 group""",
     'description': """
-        Este modulo da acceso a varias herramientas que ofrece 360 group,
-        teniendo opciones gratuitas y de pago
+        Maximize your productivity and creativity with a suite of advanced tools designed to enhance writing, optimize content, and boost online visibility. Experience innovation that transforms your professional and personal success.
     """,
     'depends': ['web'],
     'data': [
